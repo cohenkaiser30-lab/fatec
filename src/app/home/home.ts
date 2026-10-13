@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { Contato } from '../contato/contato';
 
 @Component({
-  imports: [],
+  imports: [Contato],
   selector: 'app-home',
   styleUrl: './home.css',
   templateUrl: './home.html',
 })
 export class Home {
-  title = 'Santos Sempre Santos';
+  title = 'olá pupilos';
 }
