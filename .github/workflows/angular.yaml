@@ -1,4 +1,4 @@
-name: atualizado
+name: Atualizado
 on: push
 jobs:
   angular:
