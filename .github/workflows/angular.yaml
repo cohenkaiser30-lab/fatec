@@ -6,4 +6,4 @@ jobs:
     runs-on: ububuntu-latest
     steps:
       - name: verificado
-        run: echo "ok"
+        run: echo ok
