@@ -3,7 +3,7 @@ on: push
 jobs:
   angular:
     name: ubuntu
-    runs-on: ububuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: verificado
         run: echo ok
