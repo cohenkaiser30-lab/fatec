@@ -1,0 +1,9 @@
+name: atualizado
+on: push
+jobs:
+  angular:
+    name: ubuntu
+    runs-on: ububuntu-latest
+    steps:
+      - name: verificado
+        run: echo "ok"
